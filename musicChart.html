@@ -2,14 +2,24 @@
 <html>
   <head>
     <title>Music Chart</title>
-  
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   
   <body>
     <center>
-  <h1>Open The console</h1>
+  <h1>My Favorite Bladee Songs</h1>
+      <div id="plot"></div>
     <script>
       console.log("this is from our internal JS");
+      let songNames = ["SAD MEAL", "Be Nice 2 Me", "Let Me Go"];
+      let streams = ["112155", "7868691", "807357"]
+      let trace = {
+x: songNames,
+y: streams,
+  type: 'bar'
+      };
+let data = [trace];
+      Plotly.newPlot("plot", data);
        </script>
  <a href="index.html">Click Here to return</a>
   

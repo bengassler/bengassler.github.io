@@ -16,4 +16,5 @@ let marker = L.marker(
   [35.217665 , -80.831473], {
     title: "CPCC Central Campus"
   }
-).addTo(map);
+).bindPopup("Hello from CPCC!")
+  .addTo(map);

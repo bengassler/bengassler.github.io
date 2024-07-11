@@ -4,7 +4,7 @@ console.log("js works");
 
 let map = L.map("map", {
 center: [35.217665 , -80.831473],
-  zoom: 8
+  zoom: 15
 });
 
 //import leaflet quickstart template

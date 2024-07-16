@@ -16,7 +16,7 @@ L.circle([59.328083477763464, 18.091417855626393]), {
       fillColor: 'red',
       color: 'Black',
       radius: 1000
-});
+}).addTo(map);
 
 let marker = L.marker(
   [59.32938 , 18.643501], {

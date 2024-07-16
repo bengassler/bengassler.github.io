@@ -15,7 +15,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.circle([59.328083477763464, 18.091417855626393]), {
       fillColor: 'red',
       color: 'Black',
-      radius: 1000,
+      radius: 1000
 });
 
 let marker = L.marker(

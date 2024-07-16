@@ -23,5 +23,5 @@ let marker = L.marker(
   [59.32938 , 18.643501], {
     title: "Sweden"
   }
-).bindPopup(`<h2>Hello from Sweden!</h2><hr><iframe width="280" height="157" src="https://www.youtube.com/embed/6zEIvZqs0-Y?si=HOsw05DyyuFa2DVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+).bindPopup(`<h2>Hello from Stockholms!</h2><hr><iframe width="280" height="157" src="https://www.youtube.com/embed/6zEIvZqs0-Y?si=HOsw05DyyuFa2DVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
   .addTo(map);

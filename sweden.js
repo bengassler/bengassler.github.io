@@ -18,7 +18,7 @@ L.circle([59.328083477763464, 18.091417855626393], {
       radius: 1000
 }
 ).bindPopup('<h2>Tour of the Vasa Museum</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/RiLdWJo9XQE?si=TOqBpIdWbF3Sz8QG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
-
+.addTo(map);
 let marker = L.marker(
   [59.32938 , 18.643501], {
     title: "Sweden"
